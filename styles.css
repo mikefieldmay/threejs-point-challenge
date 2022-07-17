@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+#hoop-canvas
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#score-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    color: white
+}
+
+#power-bar {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    z-index: 100;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+#power-bar-fill {
+    width: 1%;
+    height: 100%;
+    background-color: red;
+}

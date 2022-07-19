@@ -1,5 +1,8 @@
 # Building a basketball game in three.js
 
+## How to run
+Open the index.html file in a web browser
+
 ****Basic Court Setup****
 
 When it comes to building things in three.js it’s important to think about scale. Basketball is useful because there are regulation sizes for everything. A hoops height is 3 meters and the diameter is 52cm. The three point throw line is 6m away from the hoop etc. We’ll use 1 as 1m for our three.js scene.
